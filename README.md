@@ -12,7 +12,7 @@ addpath(genpath('MatDL'));
 
 - Compile the C MEX files using the `Makefile` or using the following:
 ```matlab
-cd MatDL/convnet; mex col2im_mex.c; cd ..; cd ..;
+cd MatDL/convnet; mex col2im_mex.c; mex im2col_mex.c; cd ..; cd ..;
 ```
 
 ## Project Layout

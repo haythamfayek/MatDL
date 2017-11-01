@@ -1,4 +1,4 @@
-% A complete examples of a neural network
+% A complete example of a deep neural network
 %% Init
 clear all
 addpath(genpath('../MatDL'));

@@ -1,6 +1,6 @@
 # MatDL
 
-*MatDL* is an open-source lightweight deep learning library natively in MATLAB that implements some most commonly used deep learning algorithms. 
+*MatDL* is an open-source lightweight deep learning library native in MATLAB that implements some most commonly used deep learning algorithms. 
 The library comprises functions that implement the following: (1) basic building blocks of modern neural networks such as affine transformations, convolutions, nonlinear operations, dropout, batch normalization, etc.; (2) popular architectures such as deep neural networks (DNNs), convolutional neural networks (ConvNets), and recurrent neural networks (RNNs) and their variant, the long short-term memory (LSTM) RNNs; (3) optimizers such stochastic gradient descent (SGD), RMSProp and ADAM; as well as (4) boilerplate functions for training, gradients checking, etc.
 
 ## Installation
@@ -27,17 +27,17 @@ cd MatDL/convnet; mex col2im_mex.c; mex im2col_mex.c; cd ..; cd ..;
 
 `rnn/`: RNN and LSTM functions.
 
-`train/`: Functions for gradient checking, training, and prediction.
+`train/`: Functions for gradients checking, training, and prediction.
 
 `zoo/`: Samples of various models definitions and initializations.
 
 ## Usage
 
-This is a sample of a complete minimum working example:
+This is a sample complete minimum working example:
 (Examples: [DNN](MatDL/nnet.m) (Below), [ConvNet](MatDL/convnet.m), [RNN](MatDL/rnnet.m))
 
 ```matlab
-% A complete examples of a neural network
+% A complete minimum working example.
 %% Init
 clear all
 addpath(genpath('../MatDL'));
@@ -98,6 +98,19 @@ maxRelError = gradcheck(@six_nn_bn, x, model, y, opt, 10);
 %% Predict
 [yplabel, confidence, classes, classConfidences, yp] = predict(XVal, @six_nn_bn, model, opt)
 ```
+
+## Contributing
+
+Contributions are highly welcome!
+
+If you wish to contribute, follow these steps:
+- Create a personal fork of the MatDL GitHub repository.
+- Make your changes in a branch named other than `master`.
+- Follow the same coding and documentation style for consistency.
+- Make sure that your changes do not break any of the existing functionality.
+- Submit a pull request.
+
+Please use Github issues to report bugs or request features.
 
 ## Citation
 

@@ -1,4 +1,4 @@
-% A complete examples of a convolutional neural network
+% A complete example of a convolutional neural network
 %% Init
 clear all
 addpath(genpath('../MatDL'));

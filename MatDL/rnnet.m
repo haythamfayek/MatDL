@@ -1,4 +1,4 @@
-% A complete examples of a recurrent neural network
+% A complete example of a recurrent neural network
 %% Init
 clear all
 addpath(genpath('../MatDL'));

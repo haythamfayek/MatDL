@@ -119,11 +119,13 @@ Please use Github issues to report bugs or request features.
 
 If you use this library in your research, please cite:
 
+`Fayek, (2017). MatDL: A Lightweight Deep Learning Library in MATLAB. Journal of Open Source Software, 2(19), 413, doi:10.21105/joss.00413`
+
 ```
 @article{Fayek2017,
     author       = {Haytham M. Fayek},
     title        = {{MatDL}: A Lightweight Deep Learning Library in {MATLAB}},
-    journal      = {The Journal of Open Source Software},
+    journal      = {Journal of Open Source Software},
     year         = {2017},
     month        = {nov},
     volume       = {2},

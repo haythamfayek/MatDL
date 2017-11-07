@@ -1,5 +1,6 @@
 # MatDL
 
+[![status](http://joss.theoj.org/papers/fa33e01459843ac8a5b781b1bd0c3250/status.svg)](http://joss.theoj.org/papers/fa33e01459843ac8a5b781b1bd0c3250)
 [![DOI](https://zenodo.org/badge/103798084.svg)](https://zenodo.org/badge/latestdoi/103798084)
 
 *MatDL* is an open-source lightweight deep learning library native in MATLAB that implements some most commonly used deep learning algorithms. 
@@ -120,9 +121,16 @@ If you use this library in your research, please cite:
 
 ```
 @article{Fayek2017,
-    author       = "Haytham M. Fayek",
-    title        = "MatDL: A Lightweight Deep Learning Library in MATLAB",
-    year         = "2017",
+    author       = {Haytham M. Fayek},
+    title        = {{MatDL}: A Lightweight Deep Learning Library in {MATLAB}},
+    journal      = {The Journal of Open Source Software},
+    year         = {2017},
+    month        = {nov},
+    volume       = {2},
+    number       = {19},
+    doi          = {10.21105/joss.00413},
+    url          = {https://doi.org/10.21105/joss.00413},
+    publisher    = {The Open Journal},
 }
 ```
 

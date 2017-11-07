@@ -1,5 +1,7 @@
 # MatDL
 
+[![DOI](https://zenodo.org/badge/103798084.svg)](https://zenodo.org/badge/latestdoi/103798084)
+
 *MatDL* is an open-source lightweight deep learning library native in MATLAB that implements some most commonly used deep learning algorithms. 
 The library comprises functions that implement the following: (1) basic building blocks of modern neural networks such as affine transformations, convolutions, nonlinear operations, dropout, batch normalization, etc.; (2) popular architectures such as deep neural networks (DNNs), convolutional neural networks (ConvNets), and recurrent neural networks (RNNs) and their variant, the long short-term memory (LSTM) RNNs; (3) optimizers such stochastic gradient descent (SGD), RMSProp and ADAM; as well as (4) boilerplate functions for training, gradients checking, etc.
 

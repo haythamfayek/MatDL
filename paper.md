@@ -26,6 +26,6 @@ It is straight forward to use the low-level functions to experiment with or test
 This makes it convenient in cases where MATLAB is preferred, or if it is required to be closely linked with other libraries written in MATLAB or Octave.
 *MatDL* is ideal for rapid machine learning research and experimentation, specially with small datasets, as it was designed with an emphasis on modularity, flexibility and extensibility.
 
-*MatDL* is MIT-licensed and can be retrieved from [GitHub](https://github.com/haythamfayek/MatDL) (https://github.com/haythamfayek/MatDL).
+*MatDL* is MIT-licensed and can be retrieved from [GitHub](https://github.com/haythamfayek/MatDL) ([https://github.com/haythamfayek/MatDL](https://github.com/haythamfayek/MatDL)).
 
 # References

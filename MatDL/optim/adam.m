@@ -14,8 +14,8 @@ function [model, opt] = adam(model, grads, opt)
 % Copyright (C) 2016-17 Haytham Fayek.
 
     p = fieldnames(model);
+    opt.t = opt.t + 1;
     for i = 1:numel(p)
-        opt.t = opt.t + 1;
         opt.mgrads.(p{i}) = opt.beta1 .* opt.mgrads.(p{i}) + (1 - opt.beta1) .* grads.(p{i});
         opt.vgrads.(p{i}) = opt.beta2 .* opt.vgrads.(p{i}) + (1 - opt.beta2) .* (grads.(p{i}) .^ 2);
         alpha = opt.learningRate .* sqrt(1 - (opt.beta2 .^ opt.t)) ./ (1 - (opt.beta1 .^ opt.t));
